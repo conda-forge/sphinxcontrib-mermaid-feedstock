@@ -1,5 +1,5 @@
 {% set name = "sphinxcontrib-mermaid" %}
-{% set version = "0.6.3" %}
+{% set version = "0.7.0" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sphinxcontrib-mermaid-{{ version }}.tar.gz
-  sha256: 1f113f74231eeca492ef4e370ed2787a371f8aaedacbb2e25430da89016327e6
+  url: https://github.com/mgaitan/sphinxcontrib-mermaid/archive/refs/tags/0.7.tar.gz
+  sha256: 014a1173d68b15298277b08b082117c5a7ea0765531b79e3aa20044080dd0b0c
 
 build:
   number: 0
@@ -18,9 +18,9 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
-    - python
+    - python >=3.6
     - sphinx
     - docutils
 
