@@ -1,11 +1,11 @@
-About sphinxcontrib-mermaid
-===========================
+About sphinxcontrib-mermaid-feedstock
+=====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinxcontrib-mermaid-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mgaitan/sphinxcontrib-mermaid
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinxcontrib-mermaid-feedstock/blob/main/LICENSE.txt)
 
 Summary: Mermaid diagrams in yours Sphinx powered docs
 

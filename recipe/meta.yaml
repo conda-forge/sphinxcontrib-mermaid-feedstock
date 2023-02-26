@@ -1,5 +1,5 @@
 {% set name = "sphinxcontrib-mermaid" %}
-{% set version = "0.8" %}
+{% set version = "0.8.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/mgaitan/sphinxcontrib-mermaid/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 2db8acffae485e73368122f6e31b7d5a87d70ccd5b1ab80d588fc312bb61f219
+  sha256: 555c4cdd86aa6191df668cc8ea42e85006ea02db8a83d2a0fa0c8935c88e5762
 
 build:
   number: 0
