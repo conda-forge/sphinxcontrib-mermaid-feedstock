@@ -1,5 +1,5 @@
 {% set name = "sphinxcontrib-mermaid" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sphinxcontrib_mermaid-{{ version }}.tar.gz
-  sha256: e674e04503956de8263163e0c8f446d99f9d60455cb395f64e998f1137f04f8e
+  sha256: c74fbb57a670083a88ed2b997526de4d73ed2de8d06b0e8e07e34adfc428291a
 
 build:
   number: 0
