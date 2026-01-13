@@ -37,7 +37,7 @@ about:
   home: https://github.com/mgaitan/sphinxcontrib-mermaid
   summary: Mermaid diagrams in yours Sphinx powered docs
   license: BSD-2-Clause
-  license_file: LICENSE.rst
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
